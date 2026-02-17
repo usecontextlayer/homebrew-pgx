@@ -5,21 +5,21 @@ class Pgx < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/usecontextlayer/pgx/releases/download/v0.1.0/pgx-aarch64-apple-darwin.tar.xz"
-      sha256 "883a03fac1a16cfbd6cb751bbb403a64f3f0ab11c2291279552f9b13e69af3e7"
+      sha256 "2ba551325bf3ad9db74e1f58768bec7f1364e3f9fd41f9fd08e188760eb1a8bf"
     end
     if Hardware::CPU.intel?
       url "https://github.com/usecontextlayer/pgx/releases/download/v0.1.0/pgx-x86_64-apple-darwin.tar.xz"
-      sha256 "db5b8ac367494b9b72fc8bb33ea9e03d42b3334050ec9bf9af67e89a0cbb9d32"
+      sha256 "ad0b4d7513fc8c07640d38b96d5c97eaab04cb6a0cf6fd7333e1485ed75bddd5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/usecontextlayer/pgx/releases/download/v0.1.0/pgx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cf886740bf22a674cf543eb15dc1b44efd9258969c77141fd57d561f5fdbef29"
+      sha256 "d84dfb685081ca35f3aa6553e1d365be64e744583909e0e24ed4fff889bdbfe0"
     end
     if Hardware::CPU.intel?
       url "https://github.com/usecontextlayer/pgx/releases/download/v0.1.0/pgx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f4580801809d192ce9a89337862453bea1a6680c2fb18721f54b6ce6a9617ceb"
+      sha256 "7a9f981a44180e7ed13df92f67caa8f02813c08c031e1a4714789fcad48d6a7f"
     end
   end
 
