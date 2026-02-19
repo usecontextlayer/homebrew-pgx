@@ -1,25 +1,25 @@
 class Pgx < Formula
   desc "Run embedded PostgreSQL 18 locally"
   homepage "https://github.com/usecontextlayer/pgx"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/usecontextlayer/pgx/releases/download/v0.2.0/pgx-aarch64-apple-darwin.tar.xz"
-      sha256 "58a964b517f1b0f3bf2782b523c506ffb5ac89926243ba3f241e2a0259abc913"
+      url "https://github.com/usecontextlayer/pgx/releases/download/v0.3.0/pgx-aarch64-apple-darwin.tar.xz"
+      sha256 "90a0d127552249f05760998596214f7f56d696f569f835279df982463d98a6a5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecontextlayer/pgx/releases/download/v0.2.0/pgx-x86_64-apple-darwin.tar.xz"
-      sha256 "e53c7f02ad45bfadcef1fee57aceedea2157fe5861e532688e1f58dea1b484f5"
+      url "https://github.com/usecontextlayer/pgx/releases/download/v0.3.0/pgx-x86_64-apple-darwin.tar.xz"
+      sha256 "38e0a63160aa0182a07c229aa3e5c3c0cd8e45ed0c1cfd052998bedf0558c36d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/usecontextlayer/pgx/releases/download/v0.2.0/pgx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f5529ae81760a53acec3829471e63f7737c58012a5b021a76b16c3d2515df0cc"
+      url "https://github.com/usecontextlayer/pgx/releases/download/v0.3.0/pgx-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b7302386c98100046e8ccfb1848060a921f194c558a1c0dacfed99347fa8b820"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/usecontextlayer/pgx/releases/download/v0.2.0/pgx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "65b025bb14584a328909cd10015f55c63bbff303d3f075eed09987198283bc4c"
+      url "https://github.com/usecontextlayer/pgx/releases/download/v0.3.0/pgx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "14e924a99e8918dee63fed2f84bd776fd98f82a0cc60804c16aa84fe3d9ee74d"
     end
   end
 
